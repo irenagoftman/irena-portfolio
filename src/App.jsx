@@ -99,14 +99,14 @@ export default function App() {
       {/* About */}
       <section id="about" className="max-w-6xl mx-auto px-4 py-12">
         <h2 className="text-2xl md:text-3xl font-semibold">About the Artist</h2>
-        <p className="mt-4 text-neutral-700">My name is Irena Goftman and I'm an Israeli self-taught artist. 
+        <p className="mt-4 text-neutral-700"><i>My name is Irena Goftman and I'm an Israeli self-taught artist. 
           I was born in Ukraine in 1989 and very proud of being a part of this beautiful country. Our family imigrated to Israel when I was 11 years old, but my heart is still there with my friends and beloved city Kharkiv.
 
 I started to paint in 2020 during the lockdown and concentrate in abstract acrylic paintings. I express myself, feelings and emotiong through colorfull, bright artworks and it just makes me happy. 
 
 My love for abstract art began a long time ago, but I did not try to paint myself, but only admired the works of Picasso, Kandinsky and others. 
           To create on my own is not just an opportunity for me to convey feelings and emotions hidden deep in my soul, but also to add bright colors to the lives of people who will hang my paintings in their homes, 
-          look at them and find something personal for themselves.</p>
+          look at them and find something personal for themselves.</i></p>
       </section>ook
 
       {/* Contact */}
