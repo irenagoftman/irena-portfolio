@@ -2,4 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+/* טיפוגרפיה כללית */
+:root{
+  --paper: radial-gradient(1200px 600px at 20% -10%, #faf7f2, transparent 60%),
+           radial-gradient(900px 500px at 120% 10%, #f7fbff, transparent 
