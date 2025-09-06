@@ -2,38 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
-/* טיפוגרפיה כללית */
+/* טיפוגרפיה ורקע "נייר" */
 :root{
   --paper: radial-gradient(1200px 600px at 20% -10%, #faf7f2, transparent 60%),
            radial-gradient(900px 500px at 120% 10%, #f7fbff, transparent 60%),
            #f6f5f3;
 }
-body{
+/* גם אם בטעות נשארה מחלקה על ה-body – נכפה את הרקע */
+body{ background: var(--paper) !important;
   -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
   font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-  background: var(--paper);
 }
 
 /* כותרות בסריף אלגנטי */
 .h-serif{ font-family: "Playfair Display", Georgia, 'Times New Roman', serif; }
 
-/* נייר/מרקם עדין על תמונות */
+/* צל ומסגור עדין */
 .art-shadow{
   box-shadow:
     0 1px 0 rgba(0,0,0,.08),
     0 8px 24px rgba(0,0,0,.06);
 }
-
-/* “מָתינג” + מסגרת */
 .frame{
   background: #fff;
-  border: 6px solid #fff;            /* מָתינג */
-  outline: 1px solid rgba(0,0,0,.08);/* קו עדין מסביב */
+  border: 6px solid #fff;            /* matting */
+  outline: 1px solid rgba(0,0,0,.08);/* קו עדין */
   outline-offset: -1px;
   border-radius: 14px;
 }
-
-/* תגיות קטנות אלגנטיות */
 .tag{
   @apply text-xs px-2 py-0.5 rounded-full border border-neutral-300 bg-white;
 }
+
