@@ -1,7 +1,7 @@
 import React, { useMemo, useState } from 'react'
 import { artworks, categories } from './data/artworks.js'
 
-const EMAIL = 'your.email@example.com'
+const EMAIL = 'irenagoftman@gmail.com'
 
 export default function App() {
   const [active, setActive] = useState('All')
