@@ -254,7 +254,7 @@ I started to paint in 2020 during the lockdown and concentrate in abstract acryl
 My love for abstract art began a long time ago, but I did not try to paint myself, but only admired the works of Picasso, Kandinsky and others. 
           To create on my own is not just an opportunity for me to convey feelings and emotions hidden deep in my soul, but also to add bright colors to the lives of people who will hang my paintings in their homes, 
           look at them and find something personal for themselves.</i></p>
-      </section>ook
+      </section>
 
       {/* Contact */}
       <section id="contact" className="max-w-6xl mx-auto px-4 pb-12">
